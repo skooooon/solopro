@@ -10,8 +10,28 @@
     <title>Document</title>
 </head>
 <body>
+    <h1><span class="title">Death</span>Note</h1>
+    <div class="inputDiv">
+    	   <input type="text" id="choose" class="input" placeholder="write name and kill...">
+    	   <button id="kill"></button>
+    </div>
+    <p id="lm"></p>
     
+
+    <div class="container">
+    </div>
+        
+ </div>  
     
+    <script>
+        
+$("#kill").on("click", function(){
+    var inputtt=document.getElementById("choose").value
+    
+    document.getElementById("lm").innerText="job done! "+inputtt+" is dead "
+});
+
+    </script>
     
 </body>
 </html>

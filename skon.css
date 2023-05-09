@@ -1,3 +1,51 @@
-body {
-    background-image: url("red.jpg");
-  }
+body{
+  height: 100%;
+  background-color: #111;
+  box-sizing: border-box;
+}
+
+h1 {
+color: rgb(234, 232, 238);
+font-size: 3rem;
+font-weight: 50;
+text-align: center;
+margin: 1rem 0 3rem; 
+font-family: 'Hind', sans-serif;
+}
+.title{
+	color: rgb(21, 75, 97);
+	text-transform: uppercase;
+	font-weight: 800;
+}
+.inputDiv{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.input{
+  padding: 0.5rem 1rem;
+  outline: none;
+  border: none;
+  height: 50px;
+  border-radius: 25px;
+  width: 350px;
+  margin: 0.25rem;
+  transition: .5s;
+  font-size: 1.15rem;
+}
+#kill{
+	outline: none;
+    border: none;
+    height: 50px;
+    border-radius: 25px;
+    width: 50px;
+    background-color: rgb(21, 75, 97);
+    cursor: pointer;
+    transition: .5s;
+    margin: 0.25rem;
+}
+#kill:hover{
+	opacity: 0.7;
+}
+p{color: white
+  ;}
